@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Financial Reports</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="reports">
+        <h1>Financial Reports</h1>
+        <div class="report-filters">
+            <select id="report-type">
+                <option value="monthly">Monthly Report</option>
+                <option value="yearly">Yearly Report</option>
+            </select>
+            <button onclick="generateReport()">Generate Report</button>
+        </div>
+        <div id="report-content">
+            <div class="summary-section">
+                <h2>Summary</h2>
+                <p>Total Income: <span id="report-income"></span></p>
+                <p>Total Expenses: <span id="report-expenses"></span></p>
+                <p>Net Balance: <span id="report-balance"></span></p>
+            </div>
+            <div class="chart-section">
+                <canvas id="expense-chart"></canvas>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
