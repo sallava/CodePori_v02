@@ -20,6 +20,8 @@ We have implemented **six specialized AI agents**, each responsible for handling
 
 As shown in the **figure** below, the Manager Agent initiates the process by analyzing the project description. It then works with the Architecture Agent to decompose the tasks. Once the project structure is defined, the Flow Structure Agent organizes the modules into a hierarchical format. The Dev Agent starts generating code, while the Finalization Agent refines it. Finally, the Verification Agent ensures code quality through real-time testing, and any necessary improvements are integrated before finalization.
 
+![Project Workflow](Image.png)
+
 
 # **Getting Started**  
 
