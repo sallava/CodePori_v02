@@ -39,8 +39,8 @@ client = OpenAI(
 )
 
 # def call_openai_chat(messages, model="deepseek/deepseek-r1-distill-llama-70b", temperature=0.5, timeout=60):
-def call_openai_chat(messages, model="anthropic/claude-3.5-sonnet:beta", temperature=0.5, timeout=60):
-# def call_openai_chat(messages, model="deepseek/deepseek-r1-distill-llama-70b", temperature=0.5, timeout=60):
+#def call_openai_chat(messages, model="anthropic/claude-3.5-sonnet:beta", temperature=0.5, timeout=60):
+def call_openai_chat(messages, model="deepseek/deepseek-r1-distill-llama-70b", temperature=0.5, timeout=60):
     """
     Calls the OpenRouter/OpenAI chat completion endpoint with the updated SDK.
     """
